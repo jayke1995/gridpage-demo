@@ -1,4 +1,4 @@
-/*
+x/*
 
 Tailwind - The Utility-First CSS Framework
 
@@ -196,10 +196,10 @@ module.exports = {
 
   fonts: {
     'sans': [
+      'Roboto',
       '-apple-system',
       'BlinkMacSystemFont',
       'Segoe UI',
-      'Roboto',
       'Oxygen',
       'Ubuntu',
       'Cantarell',

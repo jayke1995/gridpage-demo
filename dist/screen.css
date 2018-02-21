@@ -1,3 +1,23 @@
-.display{
-	font-family: 'Comfortaa', cursive;
+
+.icon-grey{
+	color: grey;
+}
+body{
+	
+}
+
+.background-pink{
+	background-color: #fd5c63;
+}
+
+.font-oswald{
+	font-family: 'Oswald', sans-seirf;
+}
+
+.text-rosa{
+	color: #fd5c63;
+}
+.logo{
+	width: 50px;
+	height: 50px;
 }

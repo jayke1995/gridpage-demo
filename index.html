@@ -4,116 +4,123 @@
     <title>Tailwind Starter Template</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Comfortaa" rel="stylesheet">
+    
+
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-
-
-    <link rel="stylesheet" href="./dist/screen.css">
+     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700|Raleway:300,400,500" rel="stylesheet">
     <link rel="stylesheet" href="./dist/styles.css">
+    <link rel="stylesheet" href="./dist/screen.css">
+   
   </head>
   <body>
 
 <!-- nav -->
-<nav class="flex items-center justify-between flex-wrap bg-blue-dark p-6 mb-8">
+<nav class="background-pink flex items-center justify-between flex-wrap p-6 mb-8">
 
-  <div class="flex items-center flex-no-shrink text-white mr-6">
-    <span class="display font-semibold text-5xl tracking-wide">Stream.ca</span>
+  <div class="flex items-center flex-no-shrink mr-6">
+    <img class="logo" width="60px" height="60px" src="pictures/logo.svg" alt="">
+    <span class="text-white text-5xl tracking-wide font-oswald">Stream.ca</span>
   </div>
 
-  <!-- <ul class="flex font-bold list-reset text-lg">
+  
+  <input type="search" class="bg-purple-white rounded-full border-0 h-4 p-3" placeholder="Search Music">
+  <div class="pin-r pin-t mt-3 mr-4 text-purple-lighter">
+
+    <ul class="flex font-bold list-reset text-lg items-center">
       <li class="ml-2">
-          <a class="no-underline text-white" href="#">Link 1</a>
+          <a class="no-underline text-white" href="#">Likes</a>
       </li>
       <li class="ml-2">
-          <a class="no-underline text-white" href="#">Link 2</a>
+          <a class="no-underline text-white" href="#">Profile</a>
       </li>
       <li class="ml-2">
-          <a class="no-underline text-white" href="#">Link 3</a>
+          <a class="no-underline text-white" href="#">Discover</a>
       </li>
-  </ul> -->
-  <input type="search" class="bg-purple-white shadow rounded border-0 p-3" placeholder="Search Music">
-  <div class="absolute pin-r pin-t mt-3 mr-4 text-purple-lighter">
+  </ul>
     
 </nav>
-<div class="px-8 mb-8 font-sans text-blue text-2xl">Recently Discovered</div>
 
+
+
+<div class="container mx-auto">
+  <div class="px-8 mb-8 font-sans text-rosa text-2xl">Recently Discovered</div>
 <!-- first five columna  -->
   <div class="px-2 mb-6">
     <!-- <div class=" "> -->
-    <div class="flex justify-around">
+  <div class="flex flex-wrap justify-around">
 
-  <div class="w-1/6 rounded overflow-hidden">
+  <div class="bg-grey-lightest w-full mb-6 md:w-1/2 lg:w-1/6 rounded overflow-hidden">
   <img class="w-full" src="pictures/17.jpg" alt="Sunset in the mountains">
-  <div class="px-1 py-4">
+  <div class="h-16 px-1 py-4">
     <div class="font-bold font-sans text-blue text-xl mb-2">Art Vs. Science</div>
-    <p class="text-grey-darker text-base text-sm">
+    <p class="text-grey-darker font-thin pr-1 text-sm">
       Off The Edge of The Earth and Into Forever, Forever
     </p>
   </div>
-  <div class="px-1">
-    <i class="fas fa-play"></i>
+  <div class="ml-1 mt-8 mr-1 flex">
+    <i class="icon-grey fas fa-play"></i><i class="far fa-heart ml-4"></i><i class="fas fa-arrow-alt-circle-down ml-auto"></i>
 
 
   </div>
 </div>
   
 
-      <div class="w-1/6 rounded overflow-hidden">
-  <img class="w-full" src="pictures/jimi.jpg" alt="Sunset in the mountains">
-  <div class="px-1 py-4">
-    <div class="font-bold text-blue text-xl mb-2">Jimi Hendrix</div>
-    <p class="text-grey-darker text-base text-sm">
-      Jimi Hendrix Experience
-    </p>
-  </div>
-  <div class="px-1">
-    <i class="fas fa-play"></i>
+<div class="bg-grey-lightest w-full mb-6 md:w-1/2 lg:w-1/6 rounded overflow-hidden">
+    <img class="w-full" src="pictures/jimi.jpg" alt="Sunset in the mountains">
+      <div class="h-16 px-1 py-4">
+        <div class="font-bold text-blue text-xl mb-2">Jimi Hendrix</div>
+
+          <p class="text-grey-darker font-thin pr-1 text-sm">
+             Jimi Hendrix Experience
+          </p>
+      </div>
+  <div class="ml-1 mt-8 mr-1 flex pb-2">
+    <i class="icon-grey fas fa-play"></i><i class="far fa-heart ml-4"></i><i class="fas fa-arrow-alt-circle-down ml-auto"></i>
 
 
   </div>
 </div>
 
-      <div class="w-1/6 rounded overflow-hidden">
+      <div class="bg-grey-lightest w-full mb-6 md:w-1/2 lg:w-1/6 rounded overflow-hidden">
   <img class="w-full" src="pictures/asap.jpg" alt="Sunset in the mountains">
-  <div class="px-1 py-4">
+  <div class="h-16 px-1 py-4">
     <div class="font-bold text-blue text-xl mb-2">A$AP ROCKY</div>
-    <p class="text-grey-darker text-base text-sm">
+    <p class="text-grey-darker font-thin pr-1 text-sm">
      Long Live A$AP
     </p>
   </div>
-  <div class="px-1">
-    <i class="fas fa-play"></i>
+  <div class="ml-1 mt-8 mr-1 flex">
+    <i class="icon-grey fas fa-play"></i><i class="far fa-heart ml-4"></i><i class="fas fa-arrow-alt-circle-down ml-auto"></i>
 
 
   </div>
 </div>
 
-      <div class="w-1/6 rounded overflow-hidden">
+      <div class="bg-grey-lightest w-full mb-6 md:w-1/2 lg:w-1/6 rounded overflow-hidden">
   <img class="w-full" src="pictures/ryley.jpg" alt="Sunset in the mountains">
-  <div class="px-1 py-4">
+  <div class="h-16 px-1 py-4">
     <div class="font-bold text-blue text-xl mb-2">Ryley Walker</div>
-    <p class="text-grey-darker text-base text-sm">
+    <p class="text-grey-darker font-thin pr-1 text-sm">
       Golden Sings That Have Been Sung
     </p>
   </div>
-  <div class="px-1">
-    <i class="fas fa-play"></i>
+  <div class="ml-1 mt-8 mr-1 flex">
+    <i class="icon-grey fas fa-play"></i><i class="far fa-heart ml-4"></i><i class="fas fa-arrow-alt-circle-down ml-auto"></i>
 
 
   </div>
 </div>
 
-      <div class="w-1/6 rounded overflow-hidden">
+      <div class="bg-grey-lightest w-full mb-6 md:w-1/2 lg:w-1/6 rounded overflow-hidden">
   <img class="w-full" src="pictures/isla.jpg" alt="Sunset in the mountains">
-  <div class="px-1 py-4">
+  <div class="h-16 px-1 py-4">
     <div class="font-bold text-blue text-xl mb-2">Deerhoof</div>
-    <p class="text-grey-darker text-base text-sm">
+    <p class="text-grey-darker font-thin pr-1 text-sm">
       La Isla Bonita
     </p>
   </div>
-  <div class="px-1">
-    <i class="fas fa-play"></i>
+  <div class="ml-1 mt-8 mr-1 flex">
+    <i class="icon-grey fas fa-play"></i><i class="far fa-heart ml-4"></i><i class="fas fa-arrow-alt-circle-down ml-auto"></i>
 
 
   </div>
@@ -125,85 +132,124 @@
 <br>
   <!-- second five columns -->
     <div class="px-2 mb-8">
-      <div class="flex justify-around">
+      <div class="flex flex-wrap justify-around">
 
-        <div class="w-1/6 rounded overflow-hidden">
-  <img class="w-full" src="pictures/hotspace.jpg" alt="Sunset in the mountains">
-  <div class="px-1 py-4">
-    <div class="font-bold text-blue text-xl mb-2">Queen</div>
-    <p class="text-grey-darker text-base text-sm">
-      Hot Space
-    </p>
-  </div>
-  <div class="px-1">
-    <i class="fas fa-play"></i>
+        <div class="bg-grey-lightest w-full mb-6 md:w-1/2 lg:w-1/6 rounded overflow-hidden">
+          <img class="w-full" src="pictures/hotspace.jpg" alt="Sunset in the mountains">
+          <div class="h-16 px-1 py-4">
+            <div class="font-bold text-blue text-xl mb-2">Queen</div>
+            <p class="text-grey-darker font-thin pr-1 text-sm">
+              Hot Space
+            </p>
+          </div>
+          <div class="ml-1 mt-8 flex mr-1">
+            <i class="icon-grey fas fa-play"></i><i class="far fa-heart ml-4"></i><i class="fas fa-arrow-alt-circle-down ml-auto"></i>
 
 
-  </div>
+          </div>
 </div>
   
 
-      <div class="w-1/6 rounded overflow-hidden">
+      <div class="bg-grey-lightest w-full mb-6 md:w-1/2 lg:w-1/6 rounded overflow-hidden">
   <img class="w-full" src="pictures/gucci.jpg" alt="Sunset in the mountains">
-  <div class="px-1 py-4">
+  <div class="h-16 px-1 py-4">
     <div class="font-bold text-blue text-xl mb-2">Gucci Mane</div>
-    <p class="text-grey-darker text-base text-sm">
+    <p class="text-grey-darker font-thin pr-1 text-sm">
       The State Vs. Radric Davis
     </p>
   </div>
-  <div class="px-1">
-    <i class="fas fa-play"></i>
+  <div class="ml-1 mt-8 flex mr-1">
+    <i class="icon-grey fas fa-play"></i><i class="far fa-heart ml-4"></i><i class="fas fa-arrow-alt-circle-down ml-auto"></i>
 
 
   </div>
 </div>
 
-      <div class="w-1/6 rounded overflow-hidden">
+      <div class="bg-grey-lightest w-full mb-6 md:w-1/2 lg:w-1/6 rounded overflow-hidden">
   <img class="w-full" src="pictures/magic.jpg" alt="Sunset in the mountains">
-  <div class="px-1 py-4">
+  <div class="h-16 px-1 py-4">
     <div class="font-bold text-blue text-xl mb-2">Deerhoof</div>
-    <p class="text-grey-darker text-base text-sm">
+    <p class="text-grey-darker font-thin pr-1 text-sm">
     The Magic
     </p>
   </div>
-  <div class="px-1">
-    <i class="fas fa-play"></i>
+  <div class="ml-1 mt-8 mr-1 flex">
+    <i class="icon-grey fas fa-play"></i><i class="far fa-heart ml-4"></i><i class="fas fa-arrow-alt-circle-down ml-auto"></i>
 
 
   </div>
 </div>
 
-      <div class="w-1/6 rounded overflow-hidden">
+      <div class="bg-grey-lightest w-full mb-6 md:w-1/2 lg:w-1/6 rounded overflow-hidden">
   <img class="w-full" src="pictures/fatboy.jpg" alt="Sunset in the mountains">
-  <div class="px-1 py-4">
+  <div class="h-16 px-1 py-4">
     <div class="font-bold text-blue text-xl mb-2">Fat Boys</div>
-    <p class="text-grey-darker text-base text-sm">
+    <p class="text-grey-darker font-thin pr-1 text-sm">
       Fat Boys
     </p>
   </div>
-  <div class="px-1">
-    <i class="fas fa-play"></i>
+  <div class="ml-1 mt-8 mr-1 flex">
+    <i class="icon-grey fas fa-play"></i><i class="far fa-heart ml-4"></i><i class="fas fa-arrow-alt-circle-down ml-auto"></i>
 
 
   </div>
 </div>
 
-      <div class="w-1/6 rounded overflow-hidden">
+<div class="bg-grey-lightest w-full mb-6 md:w-1/2 lg:w-1/6 rounded overflow-hidden">
   <img class="w-full" src="pictures/order.jpg" alt="Sunset in the mountains">
-  <div class="px-1 py-4">
+  <div class="h-16 px-1 py-4">
     <div class="font-bold text-blue text-xl mb-2">Queen</div>
-    <p class="text-grey-darker text-base text-sm">
-      News Of The World
+    <p class="text-grey-darker font-thin pr-1 text-sm">
+      News of the World
     </p>
   </div>
-  <div class="px-1">
-    <i class="fas fa-play"></i>
+  <div class="ml-1 mt-8 mr-1 flex pb-2">
+    <i class="icon-grey fas fa-play"></i><i class="far fa-heart ml-4"></i><i class="fas fa-arrow-alt-circle-down ml-auto"></i>
 
 
   </div>
 </div>
 
+      
+
     </div>
+    </div>
+
+    <div class="mb-8 w-">
+      <ul class="flex list-reset border border-grey-light rounded flex-auto flex-end font-sans">
+        <li><a class="block hover:text-white hover:bg-blue text-blue border-r border-grey-light px-3 py-2" href="#">Previous</a></li>
+        <li><a class="block hover:text-white hover:bg-blue text-blue border-r border-grey-light px-3 py-2" href="#">1</a></li>
+        <li><a class="block hover:text-white hover:bg-blue text-blue border-r border-grey-light px-3 py-2" href="#">2</a></li>
+        <li><a class="block text-white bg-blue border-r border-blue px-3 py-2" href="#">3</a></li>
+        <li><a class="block hover:text-white hover:bg-blue text-blue px-3 py-2" href="#">Next</a></li>
+      </ul>
+    </div>
+
+
+</div>
+
+
+   
+    <div class="p-4 bg-blue flex flex-wrap">
+
+      <div class="w-1/6 mb-8 mt-8 ml-8 text-sm">
+        <ul class="list-reset">
+        <li class="mb-4"><a href="#" class="no-underline text-grey">About</a></li>
+        <li class="mb-4"><a href="#" class="no-underline text-grey">Jobs</a></li>
+        <li class="mb-4"><a href="#" class="no-underline text-grey">Terms of Use</a></li>
+        <li class="mb-4"><a href="#" class="no-underline text-grey">Privacy</a></li>
+        <li class="mb-4"><a href="#" class="no-underline text-grey">Copyright Policy</a></li>
+        </ul>
+      </div>
+    <div class="w-1/6 mb-8 mt-8 ml-8 text-sm">
+      <ul class="list-reset">
+        <li class="mb-4"><a href="#" class="no-underline text-grey">Facebook</a></li>
+        <li class="mb-4"><a href="#" class="no-underline text-grey">Instagram</a></li>
+        <li class="mb-4"><a href="#" class="no-underline text-grey">Twitter</a></li>
+        <li class="mb-4"><a href="#" class="no-underline text-grey">Contact</a></li>
+      </ul>
+    </div>
+
     </div>
 
   </body>
